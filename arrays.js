@@ -7,13 +7,13 @@ var chocolateBars = [
   
   //Both functions take two parameters, an array and an element to add to the beginning of the array, and both functions should add the element to the beginning of the array and then return the whole array.
   
-  function addElementToBeginningOfArray(arr, arg){
+  function addElementToBeginningOfArray(array, element){
     //should not alter the original arr
-    var newArr = arr.unshift(arg);
+    var newArr = array.unshift(arg);
     return newArr;
   }
   
-  function destructivelyAddElementToBeginningOfArray(arr, arg){
+  function destructivelyAddElementToBeginningOfArray(array, element){
     //should alter the original arr
     arr.unshift(arg);
     return arr;
